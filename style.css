@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 10px 0;
+  padding: 20px 20px 20px 0;
+  width: 425px;
+  background-color: #ccc;
+  text-align: right;
+  font-size: 1.8rem;
+}
+
+.red {
+  border: red;
+  background-color: red;
+}
+
+#calc-body {
+  position: relative;
+  padding: 20px;
+  width: 445px;
+  border: 1px solid black;
+  background-color: #888;
+}
+
+.calc-btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calc-btns button {
+  margin: 5px;
+  font-size: 1.3rem;
+}
+
+.sm-btn {
+  width: 100px;
+  height: 100px;
+}
+
+.lg-btn-vertical {
+  position: absolute;
+  right: 25px;
+  width: 100px;
+  height: 210px;
+  border: orangered;
+  background-color: orangered;
+}
+
+.lg-btn-horizontal {
+  width: 210px;
+  height: 100px;
+}

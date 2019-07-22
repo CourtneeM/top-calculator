@@ -4,7 +4,7 @@ body {
   justify-content: center;
 }
 
-p {
+#display {
   margin: 10px 0;
   padding: 20px 20px 20px 0;
   width: 425px;
@@ -20,18 +20,19 @@ p {
 
 #calc-body {
   position: relative;
+  margin-top: 70px;
   padding: 20px;
   width: 445px;
   border: 1px solid black;
   background-color: #888;
 }
 
-.calc-btns {
+.calc-row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.calc-btns button {
+.calc-row button {
   margin: 5px;
   font-size: 1.3rem;
 }

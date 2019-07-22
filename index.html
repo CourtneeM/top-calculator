@@ -10,34 +10,36 @@
 <body>
 
   <main id="calc-body">
-    <p>0</p>
-    <div class="calc-btns">
-      <button class="sm-btn red">C</button>
-      <button class="sm-btn">DEL</button>
-      <button class="sm-btn">/</button>
-      <button class="sm-btn">X</button>
-    </div>
-    <div class="calc-btns">
-      <button class="sm-btn">7</button>
-      <button class="sm-btn">8</button>
-      <button class="sm-btn">9</button>
-      <button class="sm-btn">-</button>
-    </div>
-    <div class="calc-btns">
-      <button class="sm-btn">4</button>
-      <button class="sm-btn">5</button>
-      <button class="sm-btn">6</button>
-      <button class="sm-btn">+</button>
-    </div>
-    <div class="calc-btns">
-      <button class="sm-btn">1</button>
-      <button class="sm-btn">2</button>
-      <button class="sm-btn">3</button>
-      <button class="lg-btn-vertical">=</button>
-    </div>
-    <div class="calc-btns">
-      <button class="lg-btn-horizontal">0</button>
-      <button class="sm-btn">.</button>
+    <p id="display">0</p>
+    <div id="calc-btns">
+      <div class="calc-row">
+        <button class="btn sm-btn red">C</button>
+        <button class="btn sm-btn">DEL</button>
+        <button class="btn-op sm-btn">/</button>
+        <button class="btn-op sm-btn">X</button>
+      </div>
+      <div class="calc-row">
+        <button class="btn-num sm-btn">7</button>
+        <button class="btn-num sm-btn">8</button>
+        <button class="btn-num sm-btn">9</button>
+        <button class="btn-op sm-btn">-</button>
+      </div>
+      <div class="calc-row">
+        <button class="btn-num sm-btn">4</button>
+        <button class="btn-num sm-btn">5</button>
+        <button class="btn-num sm-btn">6</button>
+        <button class="btn-op sm-btn">+</button>
+      </div>
+      <div class="calc-row">
+        <button class="btn-num sm-btn">1</button>
+        <button class="btn-num sm-btn">2</button>
+        <button class="btn-num sm-btn">3</button>
+        <button class="btn lg-btn-vertical">=</button>
+      </div>
+      <div class="calc-row">
+        <button class="btn-num lg-btn-horizontal">0</button>
+        <button id="decimal-btn" class="btn-num sm-btn">.</button>
+      </div>
     </div>
   </main>
   

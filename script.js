@@ -39,7 +39,6 @@ function displayNumbers() {
   let decimalBtn = document.querySelector("#decimal-btn");
 
   calcBtns.addEventListener('click', function(e) {
-    //debugger;
     if(e.target.className.includes("btn-num")) {
       if(operator === "") {
         num1 += e.target.textContent;
@@ -136,7 +135,3 @@ function displayNumbers() {
 }
 
 displayNumbers();
-
-// console.log(operate(operator, num1, num2));
-
-// fix decimal

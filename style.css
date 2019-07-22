@@ -13,9 +13,16 @@ body {
   font-size: 1.8rem;
 }
 
-.red {
-  border: red;
-  background-color: red;
+.red-bg {
+  border: #B20000;
+  background-color: #B20000;
+  color: #eee;
+}
+
+.gray-bg {
+  border: #444;
+  background-color: #444;
+  color: #eee;
 }
 
 #calc-body {
@@ -47,8 +54,8 @@ body {
   right: 25px;
   width: 100px;
   height: 210px;
-  border: orangered;
-  background-color: orangered;
+  border: #E59400;
+  background-color: #E59400;
 }
 
 .lg-btn-horizontal {

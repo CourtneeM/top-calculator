@@ -7,7 +7,7 @@ body {
 #display {
   margin: 10px 0;
   padding: 20px 20px 20px 0;
-  width: 425px;
+  width: 97%;
   background-color: #eee;
   text-align: right;
   font-size: 1.8rem;
@@ -66,4 +66,39 @@ body {
 .lg-btn-horizontal {
   width: 210px;
   height: 100px;
+}
+
+header {
+  position: absolute;
+  right: 5%;
+}
+
+header a img {
+  width: 45px;
+}
+
+@media screen and (max-width: 500px) {
+  header a img {
+    width: 30px;
+  }
+
+  #calc-body {
+    width: 250px;
+  }
+
+  .sm-btn {
+    width: 52px;
+    height: 52px;
+  }
+  
+  .lg-btn-vertical {
+    right: 22px;
+    width: 52px;
+    height: 115px;
+  }
+  
+  .lg-btn-horizontal {
+    width: 115px;
+    height: 52px;
+  }
 }

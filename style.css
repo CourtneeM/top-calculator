@@ -77,9 +77,41 @@ header a img {
   width: 45px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1400px) {
+  header a img {
+    width: 38px;
+  }
+
+  #calc-body {
+    width: 335px;
+  }
+
+  .sm-btn {
+    width: 73px;
+    height: 73px;
+  }
+  
+  .lg-btn-vertical {
+    right: 22px;
+    width: 73px;
+    height: 155px;
+  }
+  
+  .lg-btn-horizontal {
+    width: 155px;
+    height: 73px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   header a img {
     width: 30px;
+  }
+
+  #display {
+    margin: 10px 0;
+    padding: 12px 12px 12px 0;
+    width: 97%;
   }
 
   #calc-body {
